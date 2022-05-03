@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImage="inicial.png"
+             x:Class="AppCadernoDigital.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="40">
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0"  Grid.Column="0" 
+                   Text="Ensino Medio" 
+                   HorizontalOptions="Center" 
+                   FontSize="Large"/>
+
+            <Button Grid.Row="1" Grid.Column="0" Text="Primeiro" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
+            <Button Grid.Row="2" Grid.Column="0" Text="Segundo" Clicked="Button_Clicked_1" BackgroundColor="Transparent"/>
+            <Button Grid.Row="3" Grid.Column="0" Text="Terceiro" Clicked="Button_Clicked_2" BackgroundColor="Transparent"/>
+
+
+            <Label Grid.Row="5"  Grid.Column="0" 
+                   Text="Desenvolvimentos de Sistemas" 
+                   HorizontalOptions="Center" 
+                   FontSize="Large"/>
+
+            <Button Grid.Row="6" Grid.Column="0" Text="Primeiro" Clicked="Button_Clicked_3" BackgroundColor="Transparent"/>
+            <Button Grid.Row="7" Grid.Column="0" Text="Segundo" Clicked="Button_Clicked_4" BackgroundColor="Transparent"/>
+            <Button Grid.Row="8" Grid.Column="0" Text="Terceiro" Clicked="Button_Clicked_5" BackgroundColor="Transparent"/>
+
+
+        </Grid>
+        
+        
+
+
+    </StackLayout>
+
+</ContentPage>
