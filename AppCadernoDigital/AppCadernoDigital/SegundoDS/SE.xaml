@@ -4,10 +4,30 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.SegundoDS.SE">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="60" Margin="0,90,0,0">
+
+            <Label Text=" Tinkercad "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text=" Projetos no arduino  "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+            <Label Text="Pratica"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

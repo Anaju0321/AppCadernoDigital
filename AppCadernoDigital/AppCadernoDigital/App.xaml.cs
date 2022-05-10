@@ -8,6 +8,10 @@ namespace AppCadernoDigital
     {
         public App()
         {
+
+           
+
+
             InitializeComponent();
 
             //*MainPage = new MainPage();

@@ -4,10 +4,42 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.Primeiro.Historia">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="60" Margin="0,90,0,0">
+
+            <Label Text="Mesopotâmia e Egito"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text="Grécia Antiga"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text="Império Romano"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+            
+            <Label Text=" Feudalismo"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+            <Label Text="Europa Moderna"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+            <Label Text="Antigo Regime"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

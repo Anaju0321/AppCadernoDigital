@@ -4,10 +4,35 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.Segundo.Quimica">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="60" Margin="0,90,0,0">
+
+            <Label Text=" Soluções "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text=" Termoquímica "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+            <Label Text="Estequiometria "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+            <Label Text=" Chuva ácida"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   Margin="8"/>
+
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

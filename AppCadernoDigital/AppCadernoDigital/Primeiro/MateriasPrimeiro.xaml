@@ -1,12 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--estabelece a relação de herança e declaração da imagem de fundo -->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundImage="materias.png"
              x:Class="AppCadernoDigital.Primeiro.MateriasPrimeiro">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="70">
-            <Grid>
 
+        <!--agrupa todos os elemento e estabelece algumas caracteristicas para todos, 
+    como alinhamento e preenchimento -->
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="70" >
+
+
+            <!--Criacao da tabela que agrupa os elementos das linhas e colunas para ajeitar -->
+            <Grid >
+
+                <!--definição das linhas e sua altura -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -18,21 +26,22 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
+                <!--definição das colunas e sua largura -->
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-
-                <Button Grid.Row="0" Grid.Column="0" Text="Portugues" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
-                <Button Grid.Row="1" Grid.Column="0" Text="Matematica" Clicked="Button_Clicked_1" BackgroundColor="Transparent"/>
-                <Button Grid.Row="2" Grid.Column="0" Text="Geografia" Clicked="Button_Clicked_2" BackgroundColor="Transparent"/>
-                <Button Grid.Row="3" Grid.Column="0" Text="Biologia" Clicked="Button_Clicked_3" BackgroundColor="Transparent"/>
-                <Button Grid.Row="4" Grid.Column="0" Text="Fisica" Clicked="Button_Clicked_4" BackgroundColor="Transparent"/>
-                <Button Grid.Row="5" Grid.Column="0" Text="Quimica" Clicked="Button_Clicked_5" BackgroundColor="Transparent"/>
-                <Button Grid.Row="6" Grid.Column="0" Text="Filosofia" Clicked="Button_Clicked_6" BackgroundColor="Transparent"/>
-                <Button Grid.Row="7" Grid.Column="0" Text="Historia" Clicked="Button_Clicked_7" BackgroundColor="Transparent"/>
-                <Button Grid.Row="8" Grid.Column="0" Text="Artes" Clicked="Button_Clicked_8" BackgroundColor="Transparent"/>
-                <Button Grid.Row="9" Grid.Column="0" Text="Ecucacao fisica" Clicked="Button_Clicked_9" BackgroundColor="Transparent"/>
+                <!--estabelecendo os botoes das materias, sua posição na tabela, cor e seu método -->
+                <Button Grid.Row="0" Grid.Column="0" Text="Portugues" Clicked="Button_Clicked" BackgroundColor="LightPink"/>
+                <Button Grid.Row="1" Grid.Column="0" Text="Matematica" Clicked="Button_Clicked_1" BackgroundColor="LightPink"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="Geografia" Clicked="Button_Clicked_2" BackgroundColor="LightPink"/>
+                <Button Grid.Row="3" Grid.Column="0" Text="Biologia" Clicked="Button_Clicked_3" BackgroundColor="LightPink"/>
+                <Button Grid.Row="4" Grid.Column="0" Text="Fisica" Clicked="Button_Clicked_4" BackgroundColor="LightPink"/>
+                <Button Grid.Row="5" Grid.Column="0" Text="Quimica" Clicked="Button_Clicked_5" BackgroundColor="LightPink"/>
+                <Button Grid.Row="6" Grid.Column="0" Text="Filosofia" Clicked="Button_Clicked_6" BackgroundColor="LightPink"/>
+                <Button Grid.Row="7" Grid.Column="0" Text="Historia" Clicked="Button_Clicked_7" BackgroundColor="LightPink"/>
+                <Button Grid.Row="8" Grid.Column="0" Text="Artes" Clicked="Button_Clicked_8" BackgroundColor="LightPink"/>
+                <Button Grid.Row="9" Grid.Column="0" Text="Ecucacao fisica" Clicked="Button_Clicked_9" BackgroundColor="LightPink"/>
 
 
 

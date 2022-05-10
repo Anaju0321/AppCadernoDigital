@@ -4,10 +4,30 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.Primeiro.Fisica">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="60" Margin="0,90,0,0">
+
+            <Label Text="SI, MUV, UM (Cinemética)"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text="Vetores"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+            <Label Text="Dinâmica de Newton"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+            <Label Text="Estática"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

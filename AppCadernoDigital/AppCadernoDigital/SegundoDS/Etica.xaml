@@ -4,10 +4,30 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.SegundoDS.Etica">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="60" Margin="0,90,0,0">
+
+            <Label Text=" Etica no trabalho "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text=" Situações na vida profissional  "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+            <Label Text="Dinâmicas "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

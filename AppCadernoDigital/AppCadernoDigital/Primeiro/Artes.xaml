@@ -1,13 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--estabelece a relação de herança e declaração da imagem de fundo -->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.Primeiro.Artes">
+    
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+        <!--agrupa todos os elemento e estabelece algumas caracteristicas para todos, 
+    como alinhamento e preenchimento -->
+        <StackLayout Padding="65" Margin="0,90,0,0">
+
+            <!--Colocando o escrito das materias com caracteristicas especificas, 
+            como cor da fonte, tamanho, alinhamento e margem  -->
+            <Label Text="Artes visuais"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <!--Colocando o escrito das materias com caracteristicas especificas, 
+            como cor da fonte, tamanho, alinhamento e margem  -->
+            <Label Text="Arte Bizantina"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+            <!--Colocando o escrito das materias com caracteristicas especificas, 
+            como cor da fonte, tamanho, alinhamento e margem  -->
+            <Label Text="Realismo"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+            <!--Colocando o escrito das materias com caracteristicas especificas, 
+            como cor da fonte, tamanho, alinhamento e margem  -->
+            <Label Text="Candido Portinári"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

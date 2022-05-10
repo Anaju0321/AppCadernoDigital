@@ -4,10 +4,25 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.Terceiro.Filosofia">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="65" Margin="0,90,0,0">
+
+            <Label Text="Etica"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text="Moral"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+            <Label Text="Valores"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

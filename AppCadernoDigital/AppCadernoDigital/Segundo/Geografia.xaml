@@ -4,10 +4,40 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.Segundo.Geografia">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="60" Margin="0,90,0,0">
+
+            <Label Text=" Agricultura pelo mundo "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text=" Sistemas agricolas "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+            <Label Text="Agricultura no Brasil "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+            <Label Text=" Climas"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   Margin="8"/>
+
+            <Label Text=" Biomas"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   Margin="8"/>
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

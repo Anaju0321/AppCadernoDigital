@@ -4,10 +4,31 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.Segundo.EdFisica">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="60" Margin="0,90,0,0">
+
+            <Label Text=" Corpo e movimento "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text=" Práticas de exercicio "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+            <Label Text=" Alongamentos "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   />
+
+
+
+
+
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

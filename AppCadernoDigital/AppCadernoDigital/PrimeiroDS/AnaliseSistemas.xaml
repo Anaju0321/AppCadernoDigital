@@ -6,10 +6,23 @@
              
              x:Class="AppCadernoDigital.PrimeiroDS.AnaliseSistemas">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="60" Margin="0,90,0,0">
+
+            <Label Text="Analisar problemas de empresas "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text="Solucioná-los com projetos de sistemas"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    TextColor="Black" FontSize="Large"
+                   Margin="18"/>
+
+            
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

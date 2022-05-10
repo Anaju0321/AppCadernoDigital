@@ -4,10 +4,29 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.Terceiro.Artes">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="65" Margin="0,90,0,0">
+            
+            <Label Text="Artes visuais"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+            
+            <Label Text="Arte Bizantina"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+            
+            <Label Text="Realismo"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+            
+            <Label Text="Candido Portinári"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

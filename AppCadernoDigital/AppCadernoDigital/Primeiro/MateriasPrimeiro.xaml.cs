@@ -17,6 +17,9 @@ namespace AppCadernoDigital.Primeiro
             InitializeComponent();
         }
 
+        //Prenchendo os metodos gerados pelo clicked na .xaml e definindo as paginas
+        //para a navegação das paginas com as materias
+
         private void Button_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new PortuguesPrimeiro ());

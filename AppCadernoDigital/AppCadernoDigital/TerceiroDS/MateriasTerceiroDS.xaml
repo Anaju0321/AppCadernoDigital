@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             BackgroundImage="materias5.png"
+             BackgroundImage="materias.png"
              x:Class="AppCadernoDigital.TerceiroDS.MateriasTerceiroDS">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="70">
@@ -22,11 +22,11 @@
 
 
 
-                <Button Grid.Row="1" Grid.Column="0" Text="Web III"  Clicked="Button_Clicked" BackgroundColor="Transparent"/>
-                <Button Grid.Row="2" Grid.Column="0" Text="Internet" Clicked="Button_Clicked_1" BackgroundColor="Transparent"/>
-                <Button Grid.Row="3" Grid.Column="0" Text="Qualidade e Teste de Software" Clicked="Button_Clicked_2" BackgroundColor="Transparent"/>
-                <Button Grid.Row="4" Grid.Column="0" Text="TCC" Clicked="Button_Clicked_3" BackgroundColor="Transparent"/>
-                <Button Grid.Row="5" Grid.Column="0" Text="Mobile II" Clicked="Button_Clicked_4" BackgroundColor="Transparent"/>
+                <Button Grid.Row="1" Grid.Column="0" Text="Web III"  Clicked="Button_Clicked" BackgroundColor="LightPink"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="Internet" Clicked="Button_Clicked_1" BackgroundColor="LightPink"/>
+                <Button Grid.Row="3" Grid.Column="0" Text="Qualidade e Teste de Software" Clicked="Button_Clicked_2" BackgroundColor="LightPink"/>
+                <Button Grid.Row="4" Grid.Column="0" Text="TCC" Clicked="Button_Clicked_3" BackgroundColor="LightPink"/>
+                <Button Grid.Row="5" Grid.Column="0" Text="Mobile II" Clicked="Button_Clicked_4" BackgroundColor="LightPink"/>
 
 
 

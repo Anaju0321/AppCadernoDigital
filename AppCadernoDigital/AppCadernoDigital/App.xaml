@@ -4,5 +4,11 @@
              x:Class="AppCadernoDigital.App">
     <Application.Resources>
 
+        <Style TargetType="NavigationPage" >
+            <Setter Property="BarTextColor" Value="Black"/>
+            <Setter Property="BarBackgroundColor" Value="LightPink"/>
+        </Style>
+        
+        
     </Application.Resources>
 </Application>

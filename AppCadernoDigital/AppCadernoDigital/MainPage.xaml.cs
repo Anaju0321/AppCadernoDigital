@@ -1,4 +1,5 @@
-﻿using AppCadernoDigital.Primeiro;
+﻿//dando os using para acessar as pastas com as outras paginas no projeto inteiro
+using AppCadernoDigital.Primeiro;
 using AppCadernoDigital.Segundo;
 using AppCadernoDigital.Terceiro;
 using AppCadernoDigital.PrimeiroDS;
@@ -16,11 +17,18 @@ namespace AppCadernoDigital
 {
     public partial class MainPage : ContentPage
     {
+      
+
         public MainPage()
         {
+            //Deixando a barra de navegação transparente na pagina inicial do app
+            NavigationPage.SetHasNavigationBar(this, false);
+
             InitializeComponent();
         }
 
+        //Prenchendo os metodos gerados pelo clicked na .xaml e definindo as paginas para a navegação para
+        //as paginas do primeiro, segundo e terceiro do curso e do etim.
         private void Button_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MateriasPrimeiro());

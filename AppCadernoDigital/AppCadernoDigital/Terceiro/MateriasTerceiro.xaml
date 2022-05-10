@@ -23,16 +23,16 @@
                 </Grid.ColumnDefinitions>
 
 
-                <Button Grid.Row="0" Grid.Column="0" Text="Portugues" Clicked="Button_Clicked" BackgroundColor="Transparent"/>
-                <Button Grid.Row="1" Grid.Column="0" Text="Matematica" Clicked="Button_Clicked_1" BackgroundColor="Transparent"/>
-                <Button Grid.Row="2" Grid.Column="0" Text="Geografia" Clicked="Button_Clicked_2" BackgroundColor="Transparent"/>
-                <Button Grid.Row="3" Grid.Column="0" Text="Biologia" Clicked="Button_Clicked_3" BackgroundColor="Transparent"/>
-                <Button Grid.Row="4" Grid.Column="0" Text="Fisica" Clicked="Button_Clicked_4" BackgroundColor="Transparent"/>
-                <Button Grid.Row="5" Grid.Column="0" Text="Quimica" Clicked="Button_Clicked_5" BackgroundColor="Transparent"/>
-                <Button Grid.Row="6" Grid.Column="0" Text="Filosofia" Clicked="Button_Clicked_6" BackgroundColor="Transparent"/>
-                <Button Grid.Row="7" Grid.Column="0" Text="Historia" Clicked="Button_Clicked_7" BackgroundColor="Transparent"/>
-                <Button Grid.Row="8" Grid.Column="0" Text="Artes" Clicked="Button_Clicked_8" BackgroundColor="Transparent"/>
-                <Button Grid.Row="9" Grid.Column="0" Text="Educacao fisica" Clicked="Button_Clicked_9" BackgroundColor="Transparent"/>
+                <Button Grid.Row="0" Grid.Column="0" Text="Portugues" Clicked="Button_Clicked" BackgroundColor="LightPink"/>
+                <Button Grid.Row="1" Grid.Column="0" Text="Matematica" Clicked="Button_Clicked_1" BackgroundColor="LightPink"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="Geografia" Clicked="Button_Clicked_2" BackgroundColor="LightPink"/>
+                <Button Grid.Row="3" Grid.Column="0" Text="Biologia" Clicked="Button_Clicked_3" BackgroundColor="LightPink"/>
+                <Button Grid.Row="4" Grid.Column="0" Text="Fisica" Clicked="Button_Clicked_4" BackgroundColor="LightPink"/>
+                <Button Grid.Row="5" Grid.Column="0" Text="Quimica" Clicked="Button_Clicked_5" BackgroundColor="LightPink"/>
+                <Button Grid.Row="6" Grid.Column="0" Text="Filosofia" Clicked="Button_Clicked_6" BackgroundColor="LightPink"/>
+                <Button Grid.Row="7" Grid.Column="0" Text="Historia" Clicked="Button_Clicked_7" BackgroundColor="LightPink"/>
+                <Button Grid.Row="8" Grid.Column="0" Text="Artes" Clicked="Button_Clicked_8" BackgroundColor="LightPink"/>
+                <Button Grid.Row="9" Grid.Column="0" Text="Educacao fisica" Clicked="Button_Clicked_9" BackgroundColor="LightPink"/>
 
 
 

@@ -4,10 +4,21 @@
              BackgroundImage="conteudos.png"
              x:Class="AppCadernoDigital.TerceiroDS.WebIII">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="65" Margin="0,90,0,0">
+
+            <Label Text="Padrão de arquitetura de software Model-ViewController (MVC): "
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+            <Label Text="Utilização de frameworks Model-View-Controller (MVC) para o desenvolvimento Web"
+                    VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                    TextColor="Black" FontSize="Large"
+                    Margin="8"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
